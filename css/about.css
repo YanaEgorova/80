@@ -1,0 +1,12 @@
+.about__wrapper {
+  background-image: url('../img/img2.jpg');
+}
+.about  {
+  padding: 5rem 0;
+}
+@media screen and (min-width: 1024px) {
+
+  .about {
+   text-align: left;
+  }
+}

@@ -1,0 +1,32 @@
+.info__wrapper {
+  border-bottom: 3rem solid var(--third-brand-color);
+}
+.info .text {
+  position: relative;
+  display: inline-block;
+  font-family: var(--title-font);
+}
+.info .text::before {
+  position: absolute;
+  left: -2rem;
+  top: -1.5rem;
+  display: block;
+  content:'';
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--third-brand-color);
+  border: .5rem solid var(--first-brand-color);
+  z-index: -1;
+  border-radius: 50%;
+}
+@media screen and (min-width: 1024px) {
+  .info .list {
+   display: flex;
+   justify-content: center;
+   text-align: left;
+  }
+  .info .item {
+    width: 25%;
+    text-align: center;
+  }
+}
